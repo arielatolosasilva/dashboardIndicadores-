@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Dashboard Indicadores
 
-Deploy [Create React App](https://dashboardindicadores.netlify.app/).
+ [Deploy](https://dashboardindicadores.netlify.app/).
