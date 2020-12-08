@@ -15,13 +15,13 @@ const GetApiDesempleo = () => {
         const str = elemento.fecha;
         const res = str.substring(0, 10);
 
-        return arrFecha.push(res), arrValor.push(elemento.valor)
+        return arrFecha.push(res), arrValor.push(elemento.valor);
       });
       //console.log(arrFecha)
       //console.log(arrValor)
 
       setChartData({
-        labels: arrFecha.reverse(),
+        labels:arrFecha.reverse(),
         datasets: [
           {
             label: "Tasa de desempleo",
